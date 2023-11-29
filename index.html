@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TickTrack</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="centered main">
+      <div class="form">
+        <label class="heading">TickTrack</label>
+        <div class="input">
+          <div class="value-div">
+            <input
+              type="number"
+              min="0"
+              name="hour"
+              id="hour"
+              class="input-box"
+              placeholder="hh"
+            />
+            <label>:</label>
+            <input
+              type="number"
+              min="0"
+              max="59"
+              name="minute"
+              id="minute"
+              class="input-box"
+              placeholder="mm"
+            />
+            <label>:</label>
+            <input
+              type="number"
+              min="0"
+              max="59"
+              name="second"
+              id="second"
+              class="input-box"
+              placeholder="ss"
+            />
+          </div>
+          <div class="timer">
+            <label id="timer">00:00:00</label>
+          </div>
+          <div class="btn-div">
+            <button id="btn">START</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
