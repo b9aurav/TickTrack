@@ -40,6 +40,9 @@
     border-top-right-radius: 5px;
     padding: 10px;
     padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F0ECE5;
 }
 
